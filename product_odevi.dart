@@ -5,8 +5,8 @@ void main(List<String> args) {
     telefon.Fiyat=20000;
     telefon.Kategori="Teknoloji";
     
-    print(telefon.Sil(telefon.Barkod));
-    print(telefon.Guncelle(telefon.Barkod));
+    print(telefon.Sil("XXC555"));
+    print(telefon.Guncelle("XXC555"));
     print(telefon.Ekle());
     print(telefon.liste());
 }
